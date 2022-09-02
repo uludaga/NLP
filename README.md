@@ -17,13 +17,13 @@ Content
 Offender refers to the single player who is reported in the tribunal case.
 Each row is a single messsage sent by a player.
 
-message: The content of the message
-associationtooffender: Same team or enemy team as the offender
-time casetotalreports: Number of reports before this case is brought up to Tribunal
-alliedreportcount: Number of reports of allies in same team as offender
-enemyreportcount: Number of report of enemies in opposing team as offender
-mostcommonreportreason: Most common report reason of the 5 available
-chatlogid: The unique chatlog identification number
-champion_name: The champion name of the player who sent the message.
+* message: The content of the message
+* associationtooffender: Same team or enemy team as the offender
+* time casetotalreports: Number of reports before this case is brought up to Tribunal
+* alliedreportcount: Number of reports of allies in same team as offender
+* enemyreportcount: Number of report of enemies in opposing team as offender
+* mostcommonreportreason: Most common report reason of the 5 available
+* chatlogid: The unique chatlog identification number
+* champion_name: The champion name of the player who sent the message.
 
 During this project, machine learning algorithms like LR, RF, LGBM were used. Model scores are shared below the models.
